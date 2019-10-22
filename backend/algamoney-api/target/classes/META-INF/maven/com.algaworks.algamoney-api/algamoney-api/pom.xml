@@ -44,6 +44,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- postgresql -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -51,6 +52,12 @@
 			<scope>runtime</scope>
 		</dependency>
 		
+		<!-- Migracoes - Flyway -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
