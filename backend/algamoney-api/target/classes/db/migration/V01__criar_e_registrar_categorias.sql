@@ -1,5 +1,5 @@
 CREATE TABLE category (
    ID serial PRIMARY KEY,
-   code VARCHAR (255) NOT NULL,
+   code NUMERIC (255),
    name VARCHAR (255) NOT NULL
-   );
+ );
