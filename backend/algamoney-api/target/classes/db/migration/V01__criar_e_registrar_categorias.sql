@@ -1,8 +1,5 @@
-CREATE SEQUENCE public.public.category_id_seq;
-
-CREATE TABLE public.category (
-                id BIGINT NOT NULL DEFAULT nextval('public.category_id_seq'),
-                name VARCHAR(150) NOT NULL,
-                code VARCHAR(50) NOT NULL,
-                CONSTRAINT id_category_table PRIMARY KEY (id)
-);
+CREATE TABLE category (
+   ID serial PRIMARY KEY,
+   code VARCHAR (255) NOT NULL,
+   name VARCHAR (255) NOT NULL
+   );
