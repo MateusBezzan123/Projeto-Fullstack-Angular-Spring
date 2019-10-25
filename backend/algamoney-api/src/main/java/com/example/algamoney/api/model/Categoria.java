@@ -10,21 +10,26 @@ import javax.persistence.Table;
 @Table(name = "category")
 public class Categoria {
 	
-	public Long getId() {
-		return id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long code;
+	
+	private String name;
+
+	public Long getCode() {
+		return code;
 	}
-	public void setId(Long id) {
-		this.id = id;
+
+	public void setCode(Long code) {
+		this.code = code;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	private String name;
 
 }

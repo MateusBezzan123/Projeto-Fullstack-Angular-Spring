@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.algamoney.api.AlgamoneyApiApplicationTests" time="0.032" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mateus\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Mateus\Documents\workspace-sts-3.9.8.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9149545592373198186.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\iCLS\;C:\Program Files\Intel\TXE Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files\Git LFS;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Mateus\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Mateus\AppData\Local\Programs\Python\Python37-32\;C:\Users\Mateus\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Java\jre1.8.0_212;C:\Users\Mateus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Mateus\AppData\Local\Yarn\bin;C:\Users\Mateus\AppData\Roaming\npm;C:\Users\Mateus\Pictures\spring-tool-suite-3.9.8.RELEASE-e4.11.0-win32-x86_64\sts-bundle\sts-3.9.8.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Mateus"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mateus"/>
+    <property name="java.class.path" value="C:\Users\Mateus\Pictures\spring-tool-suite-3.9.8.RELEASE-e4.11.0-win32-x86_64\sts-bundle\sts-3.9.8.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_221"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_221\lib\resources.jar;C:\Program Files\Java\jre1.8.0_221\lib\rt.jar;C:\Program Files\Java\jre1.8.0_221\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_221\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_221\lib\jce.jar;C:\Program Files\Java\jre1.8.0_221\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_221\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_221\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.example.algamoney.api.AlgamoneyApiApplicationTests" time="0.032">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed: Migration checksum mismatch for migration 01
+-> Applied to database : -872924496
+-> Resolved locally    : -535759474
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.flywaydb.core.api.FlywayException: Validate failed: Migration checksum mismatch for migration 01
+-> Applied to database : -872924496
+-> Resolved locally    : -535759474
+	at org.flywaydb.core.Flyway.doValidate(Flyway.java:1024)
+	at org.flywaydb.core.Flyway.access$100(Flyway.java:72)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:934)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:930)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1413)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:930)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+    <system-out><![CDATA[00:26:46.885 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:47.016 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:26:47.065 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:26:47.115 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:26:47.180 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests], using SpringBootContextLoader
+00:26:47.196 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: class path resource [com/example/algamoney/api/AlgamoneyApiApplicationTests-context.xml] does not exist
+00:26:47.196 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: class path resource [com/example/algamoney/api/AlgamoneyApiApplicationTestsContext.groovy] does not exist
+00:26:47.196 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:26:47.196 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: AlgamoneyApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:26:47.381 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:47.412 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:26:47.412 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:26:47.412 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:26:47.465 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/example/algamoney/api/] to resources [URL [file:/C:/Users/Mateus/Documents/Projeto-Fullstack-Angular-Spring/backend/algamoney-api/target/test-classes/com/example/algamoney/api/], URL [file:/C:/Users/Mateus/Documents/Projeto-Fullstack-Angular-Spring/backend/algamoney-api/target/classes/com/example/algamoney/api/]]
+00:26:47.465 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\target\test-classes\com\example\algamoney\api]
+00:26:47.481 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\target\test-classes\com\example\algamoney\api] for files matching pattern [C:/Users/Mateus/Documents/Projeto-Fullstack-Angular-Spring/backend/algamoney-api/target/test-classes/com/example/algamoney/api/*.class]
+00:26:47.481 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\target\classes\com\example\algamoney\api]
+00:26:47.481 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\target\classes\com\example\algamoney\api] for files matching pattern [C:/Users/Mateus/Documents/Projeto-Fullstack-Angular-Spring/backend/algamoney-api/target/classes/com/example/algamoney/api/*.class]
+00:26:47.496 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/example/algamoney/api/*.class] to resources [file [C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\target\test-classes\com\example\algamoney\api\AlgamoneyApiApplicationTests.class], file [C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\target\classes\com\example\algamoney\api\AlgamoneyApiApplication.class]]
+00:26:47.726 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api\target\classes\com\example\algamoney\api\AlgamoneyApiApplication.class]
+00:26:47.730 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.algamoney.api.AlgamoneyApiApplication for test class com.example.algamoney.api.AlgamoneyApiApplicationTests
+00:26:47.742 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: using defaults.
+00:26:47.770 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+00:26:47.866 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7181ae3f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@46238e3f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e2c9341, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32464a14, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e4aea35, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1442d7b5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1efee8e7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1ee807c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@76a4d6c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@517cd4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6cc7b4de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@32cf48b7]
+00:26:47.882 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:47.882 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:47.897 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:47.897 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:26:47.897 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:26:47.897 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:26:47.897 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests], using SpringBootContextLoader
+00:26:47.897 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: class path resource [com/example/algamoney/api/AlgamoneyApiApplicationTests-context.xml] does not exist
+00:26:47.897 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: class path resource [com/example/algamoney/api/AlgamoneyApiApplicationTestsContext.groovy] does not exist
+00:26:47.913 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:26:47.913 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: AlgamoneyApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:26:47.953 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:47.953 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:26:47.953 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:26:47.953 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:26:47.953 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.algamoney.api.AlgamoneyApiApplication for test class com.example.algamoney.api.AlgamoneyApiApplicationTests
+00:26:47.969 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.algamoney.api.AlgamoneyApiApplicationTests]: using defaults.
+00:26:47.984 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+00:26:47.984 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5a4aa2f2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6591f517, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@345965f2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@429bd883, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4d49af10, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@279ad2e3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@58134517, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4450d156, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4461c7e3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@351d0846, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@77e4c80f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@35fc6dc4]
+00:26:48.000 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:48.000 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:48.000 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:48.000 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:48.016 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6279cee3 testClass = AlgamoneyApiApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4206a205 testClass = AlgamoneyApiApplicationTests, locations = '{}', classes = '{class com.example.algamoney.api.AlgamoneyApiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5ec0a365, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2ac273d3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4f970963], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+00:26:48.031 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:48.031 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.algamoney.api.AlgamoneyApiApplicationTests]
+00:26:48.341 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:26:48.344 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:26:48.345 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:26:48.371 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+00:26:48.401 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+00:26:48.401 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.3.RELEASE)
+
+2019-10-25 00:26:49.727  INFO 2192 --- [           main] c.e.a.api.AlgamoneyApiApplicationTests   : Starting AlgamoneyApiApplicationTests on LAPTOP-ISJ2QR6L with PID 2192 (started by Mateus in C:\Users\Mateus\Documents\Projeto-Fullstack-Angular-Spring\backend\algamoney-api)
+2019-10-25 00:26:49.727  INFO 2192 --- [           main] c.e.a.api.AlgamoneyApiApplicationTests   : No active profile set, falling back to default profiles: default
+2019-10-25 00:26:49.926  INFO 2192 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@57af006c: startup date [Fri Oct 25 00:26:49 BRT 2019]; root of context hierarchy
+2019-10-25 00:26:57.974  INFO 2192 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 4.1.2 by Boxfuse
+2019-10-25 00:27:00.052  INFO 2192 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:postgresql://localhost:5432/algamoneyapi (PostgreSQL 9.5)
+2019-10-25 00:27:00.306  WARN 2192 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed: Migration checksum mismatch for migration 01
+-> Applied to database : -872924496
+-> Resolved locally    : -535759474
+2019-10-25 00:27:00.338  INFO 2192 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-10-25 00:27:00.384 ERROR 2192 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed: Migration checksum mismatch for migration 01
+-> Applied to database : -872924496
+-> Resolved locally    : -535759474
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.flywaydb.core.api.FlywayException: Validate failed: Migration checksum mismatch for migration 01
+-> Applied to database : -872924496
+-> Resolved locally    : -535759474
+	at org.flywaydb.core.Flyway.doValidate(Flyway.java:1024) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway.access$100(Flyway.java:72) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:934) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:930) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1413) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:930) ~[flyway-core-4.1.2.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 43 common frames omitted
+
+2019-10-25 00:27:00.409 ERROR 2192 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5a4aa2f2] to prepare test instance [com.example.algamoney.api.AlgamoneyApiApplicationTests@1a480135]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) ~[spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) ~[spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed: Migration checksum mismatch for migration 01
+-> Applied to database : -872924496
+-> Resolved locally    : -535759474
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 26 common frames omitted
+Caused by: org.flywaydb.core.api.FlywayException: Validate failed: Migration checksum mismatch for migration 01
+-> Applied to database : -872924496
+-> Resolved locally    : -535759474
+	at org.flywaydb.core.Flyway.doValidate(Flyway.java:1024) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway.access$100(Flyway.java:72) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:934) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:930) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1413) ~[flyway-core-4.1.2.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:930) ~[flyway-core-4.1.2.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 43 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>
