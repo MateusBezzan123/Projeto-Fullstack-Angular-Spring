@@ -1,5 +1,83 @@
-CREATE TABLE category (
-   ID serial PRIMARY KEY,
-   code NUMERIC (255),
-   name VARCHAR (255) NOT NULL
- );
+
+CREATE SEQUENCE public.permissao_id_seq;
+
+CREATE TABLE public.permissao (
+                id BIGINT NOT NULL DEFAULT nextval('public.permissao_id_seq'),
+                nome VARCHAR(50) NOT NULL,
+                CONSTRAINT permissao_id PRIMARY KEY (id)
+);
+
+
+ALTER SEQUENCE public.permissao_id_seq OWNED BY public.permissao.id;
+
+CREATE SEQUENCE public.categoria_id_seq;
+
+CREATE TABLE public.categoria (
+                id BIGINT NOT NULL DEFAULT nextval('public.categoria_id_seq'),
+                nome VARCHAR(50) NOT NULL,
+                codigo VARCHAR(11) NOT NULL,
+                CONSTRAINT categoria_id PRIMARY KEY (id)
+);
+
+
+ALTER SEQUENCE public.categoria_id_seq OWNED BY public.categoria.id;
+
+CREATE TABLE public.permissao_usuario (
+                permissao_id BIGINT NOT NULL,
+                usuario_id BIGINT NOT NULL
+);
+
+
+CREATE SEQUENCE public.quadra_id_seq;
+
+CREATE TABLE public.quadra (
+                id BIGINT NOT NULL DEFAULT nextval('public.quadra_id_seq'),
+                nome VARCHAR(50) NOT NULL,
+                endereco VARCHAR(100) NOT NULL,
+                telefone VARCHAR(10) NOT NULL,
+                hora_abertura TIMESTAMP NOT NULL,
+                hora_fechamento TIMESTAMP NOT NULL,
+                tipo VARCHAR(20) NOT NULL,
+                CONSTRAINT quadra_id PRIMARY KEY (id)
+);
+
+
+ALTER SEQUENCE public.quadra_id_seq OWNED BY public.quadra.id;
+
+CREATE TABLE public.agenda (
+                id BIGINT NOT NULL,
+                horario_inicial TIMESTAMP NOT NULL,
+                horaio_final TIMESTAMP NOT NULL,
+                quadra_id BIGINT NOT NULL,
+                usuario_id BIGINT NOT NULL,
+                CONSTRAINT agenda_id PRIMARY KEY (id)
+);
+
+
+ALTER TABLE public.permissao_usuario ADD CONSTRAINT permissao_permissao_usuario_fk
+FOREIGN KEY (permissao_id)
+REFERENCES public.permissao (id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE public.agenda ADD CONSTRAINT usuario_agenda_fk
+FOREIGN KEY (usuario_id)
+REFERENCES public.usuario (id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE public.permissao_usuario ADD CONSTRAINT usuario_permissao_usuario_fk
+FOREIGN KEY (usuario_id)
+REFERENCES public.usuario (id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE public.agenda ADD CONSTRAINT quadra_agenda_fk
+FOREIGN KEY (quadra_id)
+REFERENCES public.quadra (id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;

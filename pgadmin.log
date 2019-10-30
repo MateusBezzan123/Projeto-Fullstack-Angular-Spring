@@ -1,0 +1,43 @@
+2019-10-23 11:39:16 ERROR  : ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, Lazer).
+2019-10-23 11:39:29 ERROR  : ERROR:  INSERT has more expressions than target columns
+LINE 1: INSERT INTO category (name) VALUES (1,'Lazer');
+                                              ^
+2019-10-24 13:43:44 ERROR  : ERROR:  database "algamoneyapi" is being accessed by other users
+DETAIL:  There are 10 other sessions using the database.
+2019-10-24 14:18:59 ERROR  : ERROR:  database "algamoneyapi" is being accessed by other users
+DETAIL:  There are 10 other sessions using the database.
+2019-10-24 23:31:32 ERROR  : ERROR:  syntax error at or near "("
+LINE 2:                 code BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+                                   ^
+2019-10-24 23:31:44 ERROR  : ERROR:  syntax error at or near "("
+LINE 2:                 code BIGINT (20) PRIMARY KEY AUTO_INCREMENT,
+                                    ^
+2019-10-24 23:35:43 ERROR  : ERROR:  syntax error at or near "("
+LINE 3:                 code BIGINT (20) NOT NULL,
+                                    ^
+2019-10-25 09:08:31 ERROR  : ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, Lazer, null).
+2019-10-25 09:09:12 ERROR  : ERROR:  unterminated quoted string at or near "','');"
+LINE 1: INSERT INTO category (name) VALUES ('',Lazer','');
+                                                    ^
+2019-10-25 09:09:23 ERROR  : ERROR:  syntax error at or near "6"
+LINE 1: INSERT INTO category (name) VALUES ('1',Lazer','6');
+                                                        ^
+2019-10-25 09:09:51 ERROR  : ERROR:  syntax error at or near "6"
+LINE 1: INSERT INTO category (id,name,code) VALUES ('1',Lazer','6');
+                                                                ^
+2019-10-25 09:15:27 ERROR  : ERROR:  syntax error at or near "'2'"
+LINE 4:    ('2','Alimentação');
+            ^
+2019-10-25 09:15:40 ERROR  : ERROR:  syntax error at or near "'2'"
+LINE 1: ('2','Alimentação');
+         ^
+2019-10-25 09:15:45 ERROR  : ERROR:  syntax error at or near "'1'"
+LINE 1: ('1','Lazer');
+         ^
+2019-10-25 09:17:14 ERROR  : ERROR:  syntax error at or near "'2'"
+LINE 4:    ('2','Alimentação');
+            ^
+2019-10-25 10:13:20 ERROR  : ERROR:  database "algamoneyapi" is being accessed by other users
+DETAIL:  There are 10 other sessions using the database.

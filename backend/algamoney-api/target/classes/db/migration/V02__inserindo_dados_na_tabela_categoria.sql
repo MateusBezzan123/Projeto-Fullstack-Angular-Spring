@@ -1,17 +1,16 @@
-INSERT INTO category (code, name)
+INSERT INTO categoria (nome,codigo)
 VALUES
-   ('1','Lazer');
-   INSERT INTO category (code, name)
+   ('Lazer','89');
+   INSERT INTO categoria (nome,codigo)
 VALUES
-   ('2','Alimentação');
-   INSERT INTO category (code, name)
+   ('Alimentação','65');
+   INSERT INTO categoria (nome,codigo)
 VALUES
-   ('3','Supermercado');
-   INSERT INTO category (code, name)
+   ('Supermercado','48');
+   INSERT INTO categoria (nome,codigo)
 VALUES
-   ('4','Farmácia');
-   INSERT INTO category (code, name)
+   ('Farmácia','25');
+   INSERT INTO categoria (nome,codigo)
 VALUES
-   ('5','Outros');
-
+   ('Outros','259');
 
