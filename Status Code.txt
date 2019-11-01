@@ -1,0 +1,3 @@
+2xx -> Sucess
+4xx -> Erro do cliente
+5xx -> Erro no serviço/servidor
