@@ -1,0 +1,8 @@
+//Requisito pessoa
+@Embedded
+private Enderco endereco
+
+
+//Requisito Endereco
+@Embedded
+public class Endereco {}
