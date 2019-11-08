@@ -13,4 +13,3 @@ VALUES
    INSERT INTO categoria (nome,codigo)
 VALUES
    ('Outros','259');
-
