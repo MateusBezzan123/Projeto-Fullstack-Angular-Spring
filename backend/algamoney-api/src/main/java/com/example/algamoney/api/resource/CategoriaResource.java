@@ -29,12 +29,14 @@ public class CategoriaResource {
 	@GetMapping
 	public ResponseEntity<?> listar(){
 		List<Categoria> categorias = categoriaRepository.findAll();
-		return !categorias.isEmpty() ? ResponseEntity.ok(categorias) : ResponseEntity.noContent().build();
+		return !categorias.isEmpty() ? ResponseEntity.ok(categorias) : 
+			ResponseEntity.noContent().build();
 		
 	}
 	
 	@PostMapping
-	public ResponseEntity<Categoria>  criar(@Valid @RequestBody Categoria categoria, HttpServletResponse response) {
+	public ResponseEntity<Categoria>  criar(@Valid @RequestBody Categoria categoria,
+			HttpServletResponse response) {
 		Categoria categoriaSalva = categoriaRepository.save(categoria);
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequestUri().path("/{codigo}")
 		.buildAndExpand(categoriaSalva.getCodigo()).toUri();
