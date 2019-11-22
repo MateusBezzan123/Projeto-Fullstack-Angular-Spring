@@ -1,5 +1,6 @@
 package com.example.algamoney.api.model;
 
+import javax.persistence.Embeddable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,6 +11,7 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "endereco")
+@Embeddable
 public class Endereco {
 	
 	@Id
